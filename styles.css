@@ -108,8 +108,9 @@ strong {
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* Solo portfolio.html: sfondo header con foto tavoletta. .site-header globale invariato. */
-body.page-portfolio .site-header {
+/* Header con foto tavoletta come portfolio: su portfolio.html e su Kie/chi (non home né progetti). */
+body.page-portfolio .site-header,
+body.page-kie-chi .site-header {
   background-color: var(--kie-navy);
   background-image:
     linear-gradient(
@@ -124,7 +125,8 @@ body.page-portfolio .site-header {
   background-repeat: no-repeat;
 }
 
-body.page-portfolio .site-header.is-scrolled {
+body.page-portfolio .site-header.is-scrolled,
+body.page-kie-chi .site-header.is-scrolled {
   background-color: var(--kie-navy);
   background-image:
     linear-gradient(
@@ -911,6 +913,47 @@ section.work,
 
 .page-portfolio main > .section.work:first-of-type {
   padding-top: clamp(6.25rem, 12vw, 9.25rem);
+}
+
+/* Kie/chi — contenuti da kiecomunicazione.it/kie-chi/ */
+.page-kie-chi main > .kie-chi-article > .kie-chi-story:first-of-type {
+  padding-top: clamp(6.25rem, 12vw, 9.25rem);
+}
+
+.page-kie-chi .kie-chi-page-head {
+  margin-bottom: clamp(2rem, 5vw, 2.75rem);
+}
+
+.page-kie-chi .kie-chi-page-title {
+  margin: 0;
+}
+
+.page-kie-chi .kie-chi-story > .container.narrow {
+  padding-top: 3.35rem; /* fallback ~2 righe */
+  padding-top: calc(2 * 1lh);
+}
+
+.page-kie-chi .kie-chi-block + .kie-chi-block {
+  margin-top: clamp(2.25rem, 5vw, 3.25rem);
+}
+
+.page-kie-chi .kie-chi-heading {
+  font-family: var(--font-h1);
+  font-size: 30px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 1.2;
+  color: var(--kie-navy);
+  text-transform: none;
+  letter-spacing: -0.02em;
+  margin: 0 0 1rem;
+}
+
+.page-kie-chi .kie-chi-text {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--text-muted);
 }
 
 .work .section-head {
