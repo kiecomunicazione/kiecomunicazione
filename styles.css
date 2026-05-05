@@ -108,7 +108,7 @@ strong {
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
 }
 
-/* Header con foto tavoletta come portfolio: su portfolio.html e su Kie/chi (non home né progetti). */
+/* Header con foto tavoletta come portfolio: su /portfolio/ e su Kie/chi (non home né progetti). */
 body.page-portfolio .site-header,
 body.page-kie-chi .site-header {
   background-color: var(--kie-navy);

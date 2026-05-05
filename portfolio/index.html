@@ -3,20 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kie | Graphic design — Kraes, Identidade, Esperientzias</title>
-  <meta name="description" content="Agenzia di comunicazione in Sardegna: graphic design, branding, logo design e web design." />
+  <title>Portfolio — Kie | Graphic design</title>
+  <meta name="description" content="Progetti Kie: branding, visual design e web. Portfolio completo con filtri per tipologia." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="/styles.css" />
 </head>
-<body>
+<body class="page-portfolio">
   <header class="site-header" id="top">
     <div class="header-inner">
-      <a class="logo" href="#top" aria-label="Kie — home">
+      <a class="logo" href="/#top" aria-label="Kie — home">
         <img
           class="logo-img"
-          src="immagini/logo_kie.svg"
+          src="/immagini/logo_kie.svg"
           alt="Kie comunicazione"
           width="180"
           height="133"
@@ -40,8 +40,8 @@
         <div class="site-nav-inner">
           <div class="site-nav-links">
             <a href="/kie/chi/">Kie/chi</a>
-            <a href="#servizi">Servizi</a>
-            <a href="/portfolio/">Portfolio</a>
+            <a href="/#servizi">Servizi</a>
+            <a href="/portfolio/" aria-current="page">Portfolio</a>
             <a href="#contatti">Contatti</a>
           </div>
           <div class="site-nav-foot">
@@ -88,177 +88,11 @@
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-inner">
-        <h2 class="hero-eyebrow reveal" data-reveal>Kraes, identidade, esperientzias</h2>
-        <div class="hero-copy">
-          <h1 class="hero-banner-title">
-            <span class="hero-line">Scegli il tuo</span>
-            <span class="hero-accent" id="hero-word-reels" aria-label="kie, chi, who">
-              <span class="hero-flip" aria-live="polite">
-                <span class="hero-flip-surface">
-                  <span class="hero-flip-text">kie</span>
-                </span>
-              </span>
-            </span>
-          </h1>
-        </div>
-        <p class="hero-lead reveal" data-reveal>
-          La nostra agenzia di comunicazione aiuta enti, persone e aziende a trovare il proprio “chi”:
-          scegliendo insieme abito e identità visiva — dal cuore della Sardegna, con lo sguardo sul mondo.
-        </p>
-        <div class="hero-actions reveal" data-reveal>
-          <a class="btn btn-primary" href="#servizi">Cosa facciamo</a>
-          <a class="btn btn-ghost" href="/portfolio/">Portfolio</a>
-        </div>
-      </div>
-      <div class="hero-scroll" aria-hidden="true">
-        <span>Scroll</span>
-        <span class="hero-scroll-line"></span>
-      </div>
-    </section>
-
-    <section class="section services" id="servizi">
-      <div class="container">
-        <div class="section-head reveal" data-reveal>
-          <h2 class="section-title">Tre pilastri</h2>
-          <h1 class="services-lead-title">Creatività con metodo</h1>
-          <p class="section-sub">Visual, brand e digitale, sempre sullo stesso filo conduttore.</p>
-        </div>
-        <div class="service-grid">
-          <article class="service-card reveal" data-reveal>
-            <button
-              type="button"
-              class="service-card-hit"
-              id="service-btn-1"
-              aria-expanded="false"
-              aria-controls="service-panel-1"
-            >
-              <span class="service-icon" aria-hidden="true">
-                <svg class="service-icon-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false">
-                  <rect x="3" y="3" width="7" height="7" rx="1.25" stroke="currentColor" stroke-width="1.5" />
-                  <rect x="14" y="3" width="7" height="7" rx="1.25" stroke="currentColor" stroke-width="1.5" />
-                  <rect x="3" y="14" width="7" height="7" rx="1.25" stroke="currentColor" stroke-width="1.5" />
-                  <rect x="14" y="14" width="7" height="7" rx="1.25" stroke="currentColor" stroke-width="1.5" />
-                </svg>
-              </span>
-              <h3 class="service-card-title">Visual design</h3>
-              <span class="service-card-chevron" aria-hidden="true">
-                <svg class="service-card-chevron-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M6 9l6 6 6-6"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-            </button>
-            <div
-              class="service-card-body-wrap"
-              id="service-panel-1"
-              role="region"
-              aria-labelledby="service-btn-1"
-              aria-hidden="true"
-            >
-              <div class="service-card-body">
-                <p>Ti aiutiamo a comunicare ciò di cui hai bisogno scegliendo insieme la tua veste grafica.</p>
-              </div>
-            </div>
-          </article>
-          <article class="service-card reveal" data-reveal>
-            <button
-              type="button"
-              class="service-card-hit"
-              id="service-btn-2"
-              aria-expanded="false"
-              aria-controls="service-panel-2"
-            >
-              <span class="service-icon" aria-hidden="true">
-                <svg class="service-icon-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false">
-                  <path
-                    d="M12 2l7.794 4.5v9L12 20l-7.794-4.5v-9L12 2z"
-                    stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-              <h3 class="service-card-title">Branding</h3>
-              <span class="service-card-chevron" aria-hidden="true">
-                <svg class="service-card-chevron-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M6 9l6 6 6-6"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-            </button>
-            <div
-              class="service-card-body-wrap"
-              id="service-panel-2"
-              role="region"
-              aria-labelledby="service-btn-2"
-              aria-hidden="true"
-            >
-              <div class="service-card-body">
-                <p>Diamo forma, colore e tono di voce al tuo prodotto: ogni storia merita di essere raccontata a modo suo.</p>
-              </div>
-            </div>
-          </article>
-          <article class="service-card reveal" data-reveal>
-            <button
-              type="button"
-              class="service-card-hit"
-              id="service-btn-3"
-              aria-expanded="false"
-              aria-controls="service-panel-3"
-            >
-              <span class="service-icon" aria-hidden="true">
-                <svg class="service-icon-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" focusable="false">
-                  <circle cx="12" cy="12" r="9.25" stroke="currentColor" stroke-width="1.5" />
-                  <ellipse cx="12" cy="12" rx="3.5" ry="9.25" stroke="currentColor" stroke-width="1.5" />
-                  <path d="M3 12h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
-                </svg>
-              </span>
-              <h3 class="service-card-title">Web</h3>
-              <span class="service-card-chevron" aria-hidden="true">
-                <svg class="service-card-chevron-svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M6 9l6 6 6-6"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-            </button>
-            <div
-              class="service-card-body-wrap"
-              id="service-panel-3"
-              role="region"
-              aria-labelledby="service-btn-3"
-              aria-hidden="true"
-            >
-              <div class="service-card-body">
-                <p>Costruiamo la tua casa nel web per presentare e promuovere azienda, associazione o prodotto.</p>
-              </div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
     <section class="section work" id="portfolio">
       <div class="container">
         <div class="section-head reveal" data-reveal>
           <h1 class="work-lead-title">Portfolio</h1>
-          <p class="section-sub">Un assaggio di progetti — filtra per tipologia.</p>
+          <p class="section-sub">Tutti i progetti — filtra per tipologia.</p>
         </div>
         <div class="filter-row reveal" data-reveal role="tablist" aria-label="Filtra portfolio">
           <button type="button" class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">Tutto</button>
@@ -271,8 +105,8 @@
               <figure class="work-figure">
                 <img
                   class="work-img"
-                  src="immagini/imperfect-hero.jpg"
-                  srcset="immagini/imperfect-hero.jpg 2500w"
+                  src="/immagini/imperfect-hero.jpg"
+                  srcset="/immagini/imperfect-hero.jpg 2500w"
                   width="2500"
                   height="1667"
                   alt="Imperfect Hair &amp; Beauty — identità e logo"
@@ -293,8 +127,8 @@
               <figure class="work-figure">
                 <img
                   class="work-img"
-                  src="immagini/elighes-hero.jpg"
-                  srcset="immagini/elighes-hero.jpg 2560w"
+                  src="/immagini/elighes-hero.jpg"
+                  srcset="/immagini/elighes-hero.jpg 2560w"
                   width="2560"
                   height="1920"
                   alt="Elighes ’Uttiosos Agricampeggio — mockup sito responsive"
@@ -315,8 +149,8 @@
               <figure class="work-figure">
                 <img
                   class="work-img"
-                  src="immagini/onicoteca-hero.png"
-                  srcset="immagini/onicoteca-hero.png 2000w"
+                  src="/immagini/onicoteca-hero.png"
+                  srcset="/immagini/onicoteca-hero.png 2000w"
                   width="2000"
                   height="2000"
                   alt="Onicoteca — Il tempio delle unghie, branding"
@@ -337,8 +171,8 @@
               <figure class="work-figure">
                 <img
                   class="work-img"
-                  src="immagini/soslachitos-hero.png"
-                  srcset="immagini/soslachitos-hero.png 2500w"
+                  src="/immagini/soslachitos-hero.png"
+                  srcset="/immagini/soslachitos-hero.png 2500w"
                   width="2500"
                   height="1667"
                   alt="Sos Lachitos Brewing — bicchiere e logo"
@@ -359,8 +193,8 @@
               <figure class="work-figure">
                 <img
                   class="work-img"
-                  src="immagini/soru-hero.jpg"
-                  srcset="immagini/soru-hero.jpg 2500w"
+                  src="/immagini/soru-hero.jpg"
+                  srcset="/immagini/soru-hero.jpg 2500w"
                   width="2500"
                   height="1667"
                   alt="Soru Ferro Battuto — biglietti da visita, dal 1970"
@@ -381,8 +215,8 @@
               <figure class="work-figure">
                 <img
                   class="work-img"
-                  src="immagini/fueddusesonus-hero.png"
-                  srcset="immagini/fueddusesonus-hero.png 2500w"
+                  src="/immagini/fueddusesonus-hero.png"
+                  srcset="/immagini/fueddusesonus-hero.png 2500w"
                   width="2500"
                   height="1667"
                   alt="Fueddus e Sonus — logo su immagine concerto basso"
@@ -403,8 +237,8 @@
               <figure class="work-figure">
                 <img
                   class="work-img"
-                  src="immagini/bibigula-hero.jpg"
-                  srcset="immagini/bibigula-hero.jpg 2500w"
+                  src="/immagini/bibigula-hero.jpg"
+                  srcset="/immagini/bibigula-hero.jpg 2500w"
                   width="2500"
                   height="1667"
                   alt="Bibigùla Media Factory — logo e gufo"
@@ -425,8 +259,8 @@
               <figure class="work-figure">
                 <img
                   class="work-img"
-                  src="immagini/sasedda-hero.png"
-                  srcset="immagini/sasedda-hero.png 2500w"
+                  src="/immagini/sasedda-hero.png"
+                  srcset="/immagini/sasedda-hero.png 2500w"
                   width="2500"
                   height="1667"
                   alt="Sa Sedda Az. Agricola — identità e logo"
@@ -460,10 +294,10 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <div class="footer-brand">
-        <a class="footer-logo-link" href="#top" aria-label="Kie — torna in alto">
+        <a class="footer-logo-link" href="/#top" aria-label="Kie — torna in alto">
           <img
             class="footer-logo"
-            src="immagini/logo_kie.svg"
+            src="/immagini/logo_kie.svg"
             alt="Kie comunicazione"
             width="140"
             height="104"
@@ -515,6 +349,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="/script.js"></script>
 </body>
 </html>
